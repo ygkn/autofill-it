@@ -1,2 +1,3 @@
-# Complete-it
-A chrome extension to set autocomplete attr for input field
+# Complete It
+
+Enable autocomplete for any input fields

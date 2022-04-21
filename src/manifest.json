@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Complete It!",
-  "description": "A chrome extension to set autocomplete attr for input field",
+  "name": "Complete It",
+  "description": "Enable autocomplete for any input fields",
   "author": "ygkn <2000ygkn0713@gmail.com>",
   "version": "0.0.1",
   "permissions": ["contextMenus"],
