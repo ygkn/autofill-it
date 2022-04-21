@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Complete It!",
+  "description": "A chrome extension to set autocomplete attr for input field",
+  "author": "ygkn <2000ygkn0713@gmail.com>",
+  "version": "0.0.1",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "service-worker.ts"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.ts"],
+      "run_at": "document_idle",
+      "match_about_blank": true
+    }
+  ],
+  "icons": {
+    "16": "assets/icons/16.png",
+    "48": "assets/icons/48.png",
+    "128": "assets/icons/128.png",
+    "256": "assets/icons/256.png"
+  }
+}
