@@ -1,4 +1,4 @@
-import { Message } from "./message";
+import type { Message } from "./types/message";
 
 export const autocompletes = [
   { value: "on", label: "On" },

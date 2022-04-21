@@ -1,4 +1,4 @@
-import type { Message } from "./message";
+import type { Message } from "./types/message";
 
 type Autocompletable = HTMLElement & { autocomplete: string };
 
