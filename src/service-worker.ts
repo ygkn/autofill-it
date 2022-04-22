@@ -23,7 +23,7 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 chrome.runtime.onMessage.addListener((message: Message, _, sendResponse) => {
-  if (message.type === "contextmenu-opened") {
+  if (message.type === "change-contextmenu-checked") {
     const currentAutocomplete =
       message.payload.currentAutocomplete === ""
         ? "on"
@@ -43,7 +43,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
   }
 
   chrome.tabs.sendMessage<Message>(tab.id, {
-    type: "contextmenu-closed",
+    type: "set-autocomplete",
     payload: {
       newAutocomplete: info.menuItemId,
     },

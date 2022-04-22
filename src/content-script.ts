@@ -17,14 +17,14 @@ document.addEventListener("contextmenu", (event) => {
 
   if (targetInputElement !== null) {
     chrome.runtime.sendMessage<Message>({
-      type: "contextmenu-opened",
+      type: "change-contextmenu-checked",
       payload: { currentAutocomplete: targetInputElement.autocomplete },
     });
   }
 });
 
 chrome.runtime.onMessage.addListener((message: Message, _, sendResponse) => {
-  if (message.type === "contextmenu-closed" && targetInputElement !== null) {
+  if (message.type === "set-autocomplete" && targetInputElement !== null) {
     targetInputElement.autocomplete = message.payload.newAutocomplete;
   }
   sendResponse();

@@ -1,12 +1,12 @@
 export type Message =
   | {
-      type: "contextmenu-opened";
+      type: "change-contextmenu-checked";
       payload: {
         currentAutocomplete: string;
       };
     }
   | {
-      type: "contextmenu-closed";
+      type: "set-autocomplete";
       payload: {
         newAutocomplete: string;
       };
