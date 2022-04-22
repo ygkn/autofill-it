@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "vite build --mode developmemnt --watch",
     "build": "vite build",
-    "check": "run-p check:*",
+    "check": "run-p --continue-on-error check:*",
     "check:type": "tsc",
     "check:format": "prettier --check src/**/*.ts{x,}",
     "check:lint": "yarn eslint src/**/*.ts{x,}"
