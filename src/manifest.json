@@ -3,6 +3,7 @@
   "name": "Autofill It",
   "description": "Enable browser autofill for any input field.",
   "author": "ygkn <2000ygkn0713@gmail.com>",
+  "homepage_url": "https://github.com/ygkn/autofill-it",
   "version": "0.0.1",
   "permissions": ["contextMenus"],
   "background": {
