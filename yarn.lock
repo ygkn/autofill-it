@@ -73,7 +73,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@tsconfig/strictest@^1.0.1":
+"@tsconfig/strictest@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@tsconfig/strictest/-/strictest-1.0.1.tgz#04149befb12c1eb6db521b6d14dadf71121d6fb2"
   integrity sha512-7O8Q537UQdTZSKEV0f5WRLRFtfL9B8agGqIZrCOwOiWvbjZWPP2rAoZ7LHcwjdG4vnjdleHMEE+ZetM+lhRkcA==
