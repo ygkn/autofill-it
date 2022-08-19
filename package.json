@@ -10,7 +10,7 @@
   "private": true,
   "devDependencies": {
     "@tsconfig/strictest": "1.0.1",
-    "@types/chrome": "0.0.193",
+    "@types/chrome": "0.0.194",
     "@types/node": "17.0.31",
     "@typescript-eslint/eslint-plugin": "5.33.1",
     "@typescript-eslint/parser": "5.33.1",
