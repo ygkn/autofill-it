@@ -93,10 +93,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/strictest/-/strictest-1.0.2.tgz#aff98cd714dbd1722c9229eed2dcf3fc6fd30fd9"
   integrity sha512-IRKlC8cnP7zMz1SDBjyIVyPapkEGWLZ6wkF6Z8T+xU80P9sO5uGXlIUvtzjx+7ehPJRWxkB6CeIDwUfyqNtYkQ==
 
-"@types/chrome@0.0.198":
-  version "0.0.198"
-  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.198.tgz#24406c1ea4bf15b71cffc09addb69adc9451b0ac"
-  integrity sha512-zLn6JZXwSOOY0pw+dkIxItxvjsQThDkqaFnsnmr412Wa0MqesymfdTQ/0d30J/0wiFp3TYw0i63hzGGy0W7Paw==
+"@types/chrome@0.0.199":
+  version "0.0.199"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.199.tgz#fe4fdd2d90135fbaee24ef2490ea875ba502f818"
+  integrity sha512-BDuKiS8iZONsvTFSjbJlmHAwkYpkcWtG7Z7ESDJ/vf0QlcaXX6q4Xzi7euDNjIS4ZMA4kSODPGBHGVdC2lAHzw==
   dependencies:
     "@types/filesystem" "*"
     "@types/har-format" "*"
