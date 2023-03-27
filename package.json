@@ -9,7 +9,7 @@
   },
   "private": true,
   "devDependencies": {
-    "@tsconfig/strictest": "1.0.2",
+    "@tsconfig/strictest": "2.0.0",
     "@types/chrome": "0.0.225",
     "@types/node": "18.15.3",
     "@typescript-eslint/eslint-plugin": "5.56.0",
