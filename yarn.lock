@@ -205,10 +205,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@tsconfig/strictest@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@tsconfig/strictest/-/strictest-2.0.0.tgz#9528a6298aa28ecc93b0c4c4e9ea6aac813779b5"
-  integrity sha512-E0dpiZNdwO20c8d3seh7OmjAvDpwoRkTcU6M8cvggzB45Bd45tyTU2XJeA5Wfq+8NzVGhunvqOJ30AjSkywMXA==
+"@tsconfig/strictest@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@tsconfig/strictest/-/strictest-2.0.1.tgz#c8f42be4d2c8a8fcef0afd482b730c1d55733776"
+  integrity sha512-7JHHCbyCsGUxLd0pDbp24yz3zjxw2t673W5oAP6HCEdr/UUhaRhYd3SSnUsGCk+VnPVJVA4mXROzbhI+nyIk+w==
 
 "@types/chrome@0.0.233":
   version "0.0.233"
