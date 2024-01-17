@@ -18,7 +18,7 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
     "npm-run-all": "4.1.5",
-    "prettier": "3.2.2",
+    "prettier": "3.2.3",
     "typescript": "5.3.3",
     "vite": "5.0.11",
     "vite-plugin-chrome-extension": "0.0.7"
