@@ -20,7 +20,7 @@
     "npm-run-all2": "6.1.2",
     "prettier": "3.2.5",
     "typescript": "5.3.3",
-    "vite": "5.1.4",
+    "vite": "5.1.5",
     "vite-plugin-chrome-extension": "0.0.7"
   }
 }
