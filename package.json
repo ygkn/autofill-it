@@ -19,7 +19,7 @@
     "eslint-plugin-import": "2.29.1",
     "npm-run-all2": "6.1.2",
     "prettier": "3.2.5",
-    "typescript": "5.3.3",
+    "typescript": "5.4.2",
     "vite": "5.1.5",
     "vite-plugin-chrome-extension": "0.0.7"
   }
