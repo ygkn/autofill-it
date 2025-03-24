@@ -11,7 +11,7 @@
   "devDependencies": {
     "@tsconfig/strictest": "2.0.5",
     "@types/chrome": "0.0.310",
-    "@types/node": "22.13.11",
+    "@types/node": "22.13.13",
     "@typescript-eslint/eslint-plugin": "8.27.0",
     "@typescript-eslint/parser": "8.27.0",
     "eslint": "9.23.0",
