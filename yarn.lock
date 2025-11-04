@@ -387,10 +387,10 @@
   resolved "https://registry.yarnpkg.com/@rtsao/scc/-/scc-1.1.0.tgz#927dd2fae9bc3361403ac2c7a00c32ddce9ad7e8"
   integrity sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==
 
-"@tsconfig/strictest@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@tsconfig/strictest/-/strictest-2.0.6.tgz#7478369b48f6ad588a1710cbf6e19e997b0e1432"
-  integrity sha512-tPOhmDhIUcDjvpDDYyiUdssP84Eqm7n5KxJe5J3/g+s6xoDIPAf+SIn06dhw7VkhxIvLOnhDDrX7tsqMHNEhDg==
+"@tsconfig/strictest@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@tsconfig/strictest/-/strictest-2.0.7.tgz#4796ca8ab49260faab00340b31dc19c94f6dc231"
+  integrity sha512-lG1bXQloBVvQXasPBZSBaWbs7GNW4txZMYs7XMUVzM0s4seCbJACYBPFIRpGNVD3gC8gndK00AZON1uBrJt4Fw==
 
 "@types/chrome@0.1.24":
   version "0.1.24"
