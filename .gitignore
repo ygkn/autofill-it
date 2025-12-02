@@ -68,6 +68,10 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+# pnpm
+pnpm-debug.log*
+.pnpm-store/
+
 # dotenv environment variables file
 .env
 .env.test

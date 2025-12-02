@@ -12,9 +12,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6
+      - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v6
         with:
           node-version: 24
-          cache: "yarn"
-      - run: yarn
-      - run: yarn run check
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run check

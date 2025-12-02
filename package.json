@@ -5,9 +5,10 @@
     "check": "run-p --continue-on-error check:*",
     "check:type": "tsc",
     "check:format": "prettier --check src/**/*.ts{x,}",
-    "check:lint": "yarn eslint src/**/*.ts{x,}"
+    "check:lint": "eslint src/**/*.ts{x,}"
   },
   "private": true,
+  "packageManager": "pnpm@10.24.0",
   "devDependencies": {
     "@tsconfig/strictest": "2.0.8",
     "@types/chrome": "0.1.31",

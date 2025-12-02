@@ -20,20 +20,20 @@ A Google Chrome extension that sets `autocomplete` attributes of any editable (`
 
 ### Requirements
 
-- **Node.js** - 16.x
-- **Yarn** - 1.x
+- Node.js
+- pnpm
 
 ### Installation
 
 ```sh
-yarn # Install dependencies
+pnpm install # Install dependencies
 ```
 
 ### Run
 
 ```sh
-yarn dev # Build with watch mode
-yarn build # Build without watch mode
+pnpm dev # Build with watch mode
+pnpm build # Build without watch mode
 ```
 
 See [package.json](package.json) for more details.
