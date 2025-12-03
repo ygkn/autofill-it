@@ -10,10 +10,8 @@ document.addEventListener("contextmenu", (event) => {
   targetInputElement =
     event
       .composedPath()
-      .find(
-        (el): el is Autocompletable =>
-          el instanceof HTMLElement && "autocomplete" in el
-      ) ?? null;
+      .find((el): el is Autocompletable => el instanceof HTMLElement && "autocomplete" in el) ??
+    null;
 
   if (targetInputElement !== null) {
     chrome.runtime.sendMessage<Message>({

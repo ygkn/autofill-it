@@ -3,24 +3,17 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
+    "lib": ["ESNext", "DOM"],
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": false,
-    "noEmit": true,
+    "noEmit": true
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"],
   "references": [
     {
       "path": "./tsconfig.node.json"
     }
   ],
-  "types": [
-    "chrome"
-  ]
+  "types": ["chrome"]
 }

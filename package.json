@@ -4,22 +4,19 @@
     "build": "vite build",
     "check": "run-p --continue-on-error check:*",
     "check:type": "tsc",
-    "check:format": "prettier --check src/**/*.ts{x,}",
-    "check:lint": "eslint src/**/*.ts{x,}"
+    "check:biome": "biome check .",
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write ."
   },
   "private": true,
   "packageManager": "pnpm@10.24.0",
   "devDependencies": {
+    "@biomejs/biome": "^2.3.8",
     "@tsconfig/strictest": "2.0.8",
     "@types/chrome": "0.1.32",
     "@types/node": "24.10.1",
-    "@typescript-eslint/eslint-plugin": "8.48.1",
-    "@typescript-eslint/parser": "8.48.1",
-    "eslint": "9.39.1",
-    "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-import": "2.32.0",
     "npm-run-all2": "8.0.4",
-    "prettier": "3.7.3",
     "typescript": "5.9.3",
     "vite": "7.2.6",
     "vite-plugin-chrome-extension": "0.0.7"

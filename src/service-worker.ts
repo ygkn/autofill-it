@@ -25,9 +25,7 @@ chrome.runtime.onInstalled.addListener(() => {
 chrome.runtime.onMessage.addListener((message: Message, _, sendResponse) => {
   if (message.type === "change-contextmenu-checked") {
     const currentAutocomplete =
-      message.payload.currentAutocomplete === ""
-        ? "on"
-        : message.payload.currentAutocomplete;
+      message.payload.currentAutocomplete === "" ? "on" : message.payload.currentAutocomplete;
     for (const autocomplete of autocompletes) {
       chrome.contextMenus.update(autocomplete.value, {
         checked: currentAutocomplete === autocomplete.value,
