@@ -1,6 +1,7 @@
 import { resolve } from "node:path";
+import { crx } from "@crxjs/vite-plugin";
 import { defineConfig } from "vite";
-import { chromeExtension } from "vite-plugin-chrome-extension";
+import manifest from "./manifest.json";
 
 export default defineConfig({
   resolve: {
@@ -8,14 +9,6 @@ export default defineConfig({
       "@": resolve(__dirname, "src"),
     },
   },
-  build: {
-    terserOptions: {
-      mangle: false,
-    },
-    rollupOptions: {
-      input: "src/manifest.json",
-    },
-  },
 
-  plugins: [chromeExtension()],
+  plugins: [crx({ manifest })],
 });
