@@ -9,10 +9,10 @@ importers:
   .:
     devDependencies:
       '@biomejs/biome':
-        specifier: ^2.3.8
+        specifier: 2.3.8
         version: 2.3.8
       '@crxjs/vite-plugin':
-        specifier: ^2.2.1
+        specifier: 2.2.1
         version: 2.2.1
       '@tsconfig/strictest':
         specifier: 2.0.8
