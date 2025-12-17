@@ -21,8 +21,8 @@ importers:
         specifier: 0.1.32
         version: 0.1.32
       '@types/node':
-        specifier: 24.10.2
-        version: 24.10.2
+        specifier: 24.10.4
+        version: 24.10.4
       npm-run-all2:
         specifier: 8.0.4
         version: 8.0.4
@@ -31,7 +31,7 @@ importers:
         version: 5.9.3
       vite:
         specifier: 7.2.7
-        version: 7.2.7(@types/node@24.10.2)
+        version: 7.2.7(@types/node@24.10.4)
 
 packages:
 
@@ -394,8 +394,8 @@ packages:
   '@types/har-format@1.2.16':
     resolution: {integrity: sha512-fluxdy7ryD3MV6h8pTfTYpy/xQzCFC7m89nOH9y94cNqJ1mDIDPut7MnRHI3F6qRmh/cT2fUjG1MLdCNb4hE9A==}
 
-  '@types/node@24.10.2':
-    resolution: {integrity: sha512-WOhQTZ4G8xZ1tjJTvKOpyEVSGgOTvJAfDK3FNFgELyaTpzhdgHVHeqW8V+UJvzF5BT+/B54T/1S2K6gd9c7bbA==}
+  '@types/node@24.10.4':
+    resolution: {integrity: sha512-vnDVpYPMzs4wunl27jHrfmwojOGKya0xyM3sH+UE5iv5uPS6vX7UIoh6m+vQc5LGBq52HBKPIn/zcSZVzeDEZg==}
 
   '@webcomponents/custom-elements@1.6.0':
     resolution: {integrity: sha512-CqTpxOlUCPWRNUPZDxT5v2NnHXA4oox612iUGnmTUGQFhZ1Gkj8kirtl/2wcF6MqX7+PqqicZzOCBKKfIn0dww==}
@@ -1003,7 +1003,7 @@ snapshots:
 
   '@types/har-format@1.2.16': {}
 
-  '@types/node@24.10.2':
+  '@types/node@24.10.4':
     dependencies:
       undici-types: 7.16.0
 
@@ -1343,7 +1343,7 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  vite@7.2.7(@types/node@24.10.2):
+  vite@7.2.7(@types/node@24.10.4):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
@@ -1352,7 +1352,7 @@ snapshots:
       rollup: 4.53.3
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.10.2
+      '@types/node': 24.10.4
       fsevents: 2.3.3
 
   whatwg-encoding@3.1.1:
