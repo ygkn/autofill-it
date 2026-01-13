@@ -15,7 +15,7 @@
     "@biomejs/biome": "2.3.11",
     "@crxjs/vite-plugin": "2.3.0",
     "@tsconfig/strictest": "2.0.8",
-    "@types/chrome": "0.1.32",
+    "@types/chrome": "0.1.33",
     "@types/node": "24.10.6",
     "npm-run-all2": "8.0.4",
     "typescript": "5.9.3",
