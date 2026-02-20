@@ -10,7 +10,7 @@
     "lint:fix": "biome lint --write ."
   },
   "private": true,
-  "packageManager": "pnpm@10.29.3",
+  "packageManager": "pnpm@10.30.0",
   "devDependencies": {
     "@biomejs/biome": "2.4.2",
     "@crxjs/vite-plugin": "2.3.0",
