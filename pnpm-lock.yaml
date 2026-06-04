@@ -13,7 +13,7 @@ importers:
         version: 2.4.16
       '@crxjs/vite-plugin':
         specifier: 2.4.0
-        version: 2.4.0(vite@8.0.15(@types/node@24.12.4))
+        version: 2.4.0(vite@8.0.16(@types/node@24.12.4))
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -30,8 +30,8 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
       vite:
-        specifier: 8.0.15
-        version: 8.0.15(@types/node@24.12.4)
+        specifier: 8.0.16
+        version: 8.0.16(@types/node@24.12.4)
 
 packages:
 
@@ -606,8 +606,8 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  vite@8.0.15:
-    resolution: {integrity: sha512-qpgllRxrLqwsMAGRdLhsEr9bepaOQk1rxH1xT2coBXLaEB/bfkqQj1j7RMxwMfnYrvO1ZnFMiwX+wBVgnsyn0g==}
+  vite@8.0.16:
+    resolution: {integrity: sha512-h9bXPmJichP5fLmVQo3PyaGSDE2n3aPuomeAlVRm0JLmt4rY6zmPKd59HYI4LNW8oTK7tlTsuC7l/m7awx9Jcw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -696,7 +696,7 @@ snapshots:
   '@biomejs/cli-win32-x64@2.4.16':
     optional: true
 
-  '@crxjs/vite-plugin@2.4.0(vite@8.0.15(@types/node@24.12.4))':
+  '@crxjs/vite-plugin@2.4.0(vite@8.0.16(@types/node@24.12.4))':
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@webcomponents/custom-elements': 1.6.0
@@ -714,7 +714,7 @@ snapshots:
       react-refresh: 0.13.0
       rollup: 2.79.2
       rxjs: 7.5.7
-      vite: 8.0.15(@types/node@24.12.4)
+      vite: 8.0.16(@types/node@24.12.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -1137,7 +1137,7 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  vite@8.0.15(@types/node@24.12.4):
+  vite@8.0.16(@types/node@24.12.4):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
