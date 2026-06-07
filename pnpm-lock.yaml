@@ -13,7 +13,7 @@ importers:
         version: 2.4.16
       '@crxjs/vite-plugin':
         specifier: 2.4.0
-        version: 2.4.0(vite@8.0.16(@types/node@24.12.4))
+        version: 2.4.0(vite@8.0.16(@types/node@24.13.0))
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -21,8 +21,8 @@ importers:
         specifier: 0.1.42
         version: 0.1.42
       '@types/node':
-        specifier: 24.12.4
-        version: 24.12.4
+        specifier: 24.13.0
+        version: 24.13.0
       npm-run-all2:
         specifier: 9.0.1
         version: 9.0.1
@@ -31,7 +31,7 @@ importers:
         version: 5.9.3
       vite:
         specifier: 8.0.16
-        version: 8.0.16(@types/node@24.12.4)
+        version: 8.0.16(@types/node@24.13.0)
 
 packages:
 
@@ -250,8 +250,8 @@ packages:
   '@types/har-format@1.2.16':
     resolution: {integrity: sha512-fluxdy7ryD3MV6h8pTfTYpy/xQzCFC7m89nOH9y94cNqJ1mDIDPut7MnRHI3F6qRmh/cT2fUjG1MLdCNb4hE9A==}
 
-  '@types/node@24.12.4':
-    resolution: {integrity: sha512-GUUEShf+PBCGW2KaXwcIt3Yk+e3pkKwWKb9GSyM9WQVE+ep2jzmHdGsHzu4wgcZy5fN9FBdVzjpBQsYlpfpgLA==}
+  '@types/node@24.13.0':
+    resolution: {integrity: sha512-5vtOqGQr4NJKeEzV441FcOi2MeG9UTWq9LqVLGneDdu4vlX17H8kQ2PA2UmNwCUGPVDj4oBjNhS7ReVEIWJJrg==}
 
   '@webcomponents/custom-elements@1.6.0':
     resolution: {integrity: sha512-CqTpxOlUCPWRNUPZDxT5v2NnHXA4oox612iUGnmTUGQFhZ1Gkj8kirtl/2wcF6MqX7+PqqicZzOCBKKfIn0dww==}
@@ -599,8 +599,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@7.16.0:
-    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
   universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
@@ -696,7 +696,7 @@ snapshots:
   '@biomejs/cli-win32-x64@2.4.16':
     optional: true
 
-  '@crxjs/vite-plugin@2.4.0(vite@8.0.16(@types/node@24.12.4))':
+  '@crxjs/vite-plugin@2.4.0(vite@8.0.16(@types/node@24.13.0))':
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@webcomponents/custom-elements': 1.6.0
@@ -714,7 +714,7 @@ snapshots:
       react-refresh: 0.13.0
       rollup: 2.79.2
       rxjs: 7.5.7
-      vite: 8.0.16(@types/node@24.12.4)
+      vite: 8.0.16(@types/node@24.13.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -833,9 +833,9 @@ snapshots:
 
   '@types/har-format@1.2.16': {}
 
-  '@types/node@24.12.4':
+  '@types/node@24.13.0':
     dependencies:
-      undici-types: 7.16.0
+      undici-types: 7.18.2
 
   '@webcomponents/custom-elements@1.6.0': {}
 
@@ -1133,11 +1133,11 @@ snapshots:
 
   typescript@5.9.3: {}
 
-  undici-types@7.16.0: {}
+  undici-types@7.18.2: {}
 
   universalify@2.0.1: {}
 
-  vite@8.0.16(@types/node@24.12.4):
+  vite@8.0.16(@types/node@24.13.0):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
@@ -1145,7 +1145,7 @@ snapshots:
       rolldown: 1.0.3
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 24.12.4
+      '@types/node': 24.13.0
       fsevents: 2.3.3
 
   which@2.0.2:
