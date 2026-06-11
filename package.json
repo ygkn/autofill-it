@@ -13,7 +13,7 @@
   "packageManager": "pnpm@11.5.2",
   "devDependencies": {
     "@biomejs/biome": "2.4.16",
-    "@crxjs/vite-plugin": "2.4.0",
+    "@crxjs/vite-plugin": "2.5.0",
     "@tsconfig/strictest": "2.0.8",
     "@types/chrome": "0.1.43",
     "@types/node": "24.13.1",
