@@ -13,7 +13,7 @@ importers:
         version: 2.4.16
       '@crxjs/vite-plugin':
         specifier: 2.7.0
-        version: 2.7.0(vite@8.1.0(@types/node@24.13.2))
+        version: 2.7.0(vite@8.1.1(@types/node@24.13.2))
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -30,8 +30,8 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
       vite:
-        specifier: 8.1.0
-        version: 8.1.0(@types/node@24.13.2)
+        specifier: 8.1.1
+        version: 8.1.1(@types/node@24.13.2)
 
 packages:
 
@@ -470,8 +470,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  postcss@8.5.15:
-    resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==}
+  postcss@8.5.16:
+    resolution: {integrity: sha512-vuwillviilfKZsg0VGj5R/YwwcHx4SLsIOI/7K6mQkWx+l5cUHTjj5g0AasTBcyXsbfTgrwsUNmVUb5xVwyPwg==}
     engines: {node: ^10 || ^12 || >=14}
 
   read-package-json-fast@6.0.0:
@@ -526,8 +526,8 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  vite@8.1.0:
-    resolution: {integrity: sha512-BuJcQK/56NQTWDGn4ABea3q4SSBdNPWwNZKTkkUpcMPnLoquSYH8llRtSUIgoL1KSCpHt5eghLShn50mH36y7Q==}
+  vite@8.1.1:
+    resolution: {integrity: sha512-X/05/cT+VITy2AeDc1der6smvGWWREtL4hPbPTaVbjSBuuWkmNOjR6HP3NzqcQA2nF6VHGUPaFRJyft/2AE9Kg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -616,7 +616,7 @@ snapshots:
   '@biomejs/cli-win32-x64@2.4.16':
     optional: true
 
-  '@crxjs/vite-plugin@2.7.0(vite@8.1.0(@types/node@24.13.2))':
+  '@crxjs/vite-plugin@2.7.0(vite@8.1.1(@types/node@24.13.2))':
     dependencies:
       '@webcomponents/custom-elements': 1.6.0
       acorn-walk: 8.3.5
@@ -632,7 +632,7 @@ snapshots:
       rollup: 2.80.0
       rxjs: 7.5.7
       tinyglobby: 0.2.17
-      vite: 8.1.0(@types/node@24.13.2)
+      vite: 8.1.1(@types/node@24.13.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -918,7 +918,7 @@ snapshots:
 
   pidtree@1.0.0: {}
 
-  postcss@8.5.15:
+  postcss@8.5.16:
     dependencies:
       nanoid: 3.3.14
       picocolors: 1.1.1
@@ -981,11 +981,11 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  vite@8.1.0(@types/node@24.13.2):
+  vite@8.1.1(@types/node@24.13.2):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
-      postcss: 8.5.15
+      postcss: 8.5.16
       rolldown: 1.1.3
       tinyglobby: 0.2.17
     optionalDependencies:
