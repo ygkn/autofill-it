@@ -18,8 +18,8 @@ importers:
         specifier: 2.0.8
         version: 2.0.8
       '@types/chrome':
-        specifier: 0.2.0
-        version: 0.2.0
+        specifier: 0.2.1
+        version: 0.2.1
       '@types/node':
         specifier: 24.13.2
         version: 24.13.2
@@ -222,8 +222,8 @@ packages:
   '@tybys/wasm-util@0.10.3':
     resolution: {integrity: sha512-F3fo1MYrRJYL3zER0OUOmkutjr1Vp23m7OsSgp7nq4SP6OqX6C/56XFIPAl5bt3zaBRjmW7SGz3u/6LwFpYcOg==}
 
-  '@types/chrome@0.2.0':
-    resolution: {integrity: sha512-K/i7EKEVSpmyXXjE0ev5oASWBYMY6yM8LFSutG2PkM1DmxJUggZsoaTc0W1RsVwDDKrsZEjpHFAbqqxlRxGsSg==}
+  '@types/chrome@0.2.1':
+    resolution: {integrity: sha512-WEsUncT1UGj7tR4c0ol1f8O0qXXVNV7mIMhCLRXant4jCWKR2cP98PQaw23EZhYf3+b9dGBk5HdI1ZT0YbNZuQ==}
 
   '@types/filesystem@0.0.36':
     resolution: {integrity: sha512-vPDXOZuannb9FZdxgHnqSwAG/jvdGM8Wq+6N4D/d80z+D4HWH+bItqsZaVRQykAn6WEVeEkLm2oQigyHtgb0RA==}
@@ -721,7 +721,7 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@types/chrome@0.2.0':
+  '@types/chrome@0.2.1':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
