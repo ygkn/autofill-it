@@ -17,7 +17,7 @@
     "@tsconfig/strictest": "2.0.8",
     "@types/chrome": "0.2.2",
     "@types/node": "24.13.3",
-    "npm-run-all2": "9.0.2",
+    "npm-run-all2": "9.0.3",
     "typescript": "5.9.3",
     "vite": "8.1.5"
   }
