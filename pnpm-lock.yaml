@@ -171,7 +171,7 @@ importers:
         version: 2.4.16
       '@crxjs/vite-plugin':
         specifier: 2.7.1
-        version: 2.7.1(vite@8.2.2(@types/node@24.13.3))
+        version: 2.7.1(vite@8.2.2(@types/node@24.13.4))
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -179,8 +179,8 @@ importers:
         specifier: 0.2.9
         version: 0.2.9
       '@types/node':
-        specifier: 24.13.3
-        version: 24.13.3
+        specifier: 24.13.4
+        version: 24.13.4
       npm-run-all2:
         specifier: 9.0.3
         version: 9.0.3
@@ -189,7 +189,7 @@ importers:
         version: 5.9.3
       vite:
         specifier: 8.2.2
-        version: 8.2.2(@types/node@24.13.3)
+        version: 8.2.2(@types/node@24.13.4)
 
 packages:
 
@@ -375,8 +375,8 @@ packages:
   '@types/har-format@1.2.16':
     resolution: {integrity: sha512-fluxdy7ryD3MV6h8pTfTYpy/xQzCFC7m89nOH9y94cNqJ1mDIDPut7MnRHI3F6qRmh/cT2fUjG1MLdCNb4hE9A==}
 
-  '@types/node@24.13.3':
-    resolution: {integrity: sha512-Dh8vAsV36ig5wa9OX4pXvMc9D3Veibfw2wix0CUwYODLD8nkj9UsLjASr49nPg+2eKzxhBV+v7L8pXvT4e639Q==}
+  '@types/node@24.13.4':
+    resolution: {integrity: sha512-YJ7EqCstVTzIr0fMr7qul/977en+pQHrfmuKIo6Zr9i75Be21dr3MovcfvGtyvi2HAUrRerWps5sMO9I7WaxDw==}
 
   '@webcomponents/custom-elements@1.6.0':
     resolution: {integrity: sha512-CqTpxOlUCPWRNUPZDxT5v2NnHXA4oox612iUGnmTUGQFhZ1Gkj8kirtl/2wcF6MqX7+PqqicZzOCBKKfIn0dww==}
@@ -757,7 +757,7 @@ snapshots:
   '@biomejs/cli-win32-x64@2.4.16':
     optional: true
 
-  '@crxjs/vite-plugin@2.7.1(vite@8.2.2(@types/node@24.13.3))':
+  '@crxjs/vite-plugin@2.7.1(vite@8.2.2(@types/node@24.13.4))':
     dependencies:
       '@webcomponents/custom-elements': 1.6.0
       acorn-walk: 8.3.5
@@ -773,7 +773,7 @@ snapshots:
       rollup: 2.80.0
       rxjs: 7.5.7
       tinyglobby: 0.2.17
-      vite: 8.2.2(@types/node@24.13.3)
+      vite: 8.2.2(@types/node@24.13.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -843,7 +843,7 @@ snapshots:
 
   '@types/har-format@1.2.16': {}
 
-  '@types/node@24.13.3':
+  '@types/node@24.13.4':
     dependencies:
       undici-types: 7.18.2
 
@@ -1090,7 +1090,7 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  vite@8.2.2(@types/node@24.13.3):
+  vite@8.2.2(@types/node@24.13.4):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -1098,7 +1098,7 @@ snapshots:
       rolldown: 1.2.7
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 24.13.3
+      '@types/node': 24.13.4
       fsevents: 2.3.3
 
   which@2.0.2:
