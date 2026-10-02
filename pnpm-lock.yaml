@@ -176,8 +176,8 @@ importers:
         specifier: 2.0.8
         version: 2.0.8
       '@types/chrome':
-        specifier: 0.3.3
-        version: 0.3.3
+        specifier: 0.3.4
+        version: 0.3.4
       '@types/node':
         specifier: 24.19.0
         version: 24.19.0
@@ -363,8 +363,8 @@ packages:
   '@tsconfig/strictest@2.0.8':
     resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
 
-  '@types/chrome@0.3.3':
-    resolution: {integrity: sha512-XdJPtwgZs4k8xN+YpSzruqNxmKtEb4sBDtFarj1H7bPmZTSidyk/QkFu4swksTs28JmW5IuxuL7gMeEswm3Hfg==}
+  '@types/chrome@0.3.4':
+    resolution: {integrity: sha512-dcySM5R3WAUVYFjylu6tvI4D03hPKjgAqk+tKZ/tm/vxL4mLgbnSsOEQ3J7V99qP/U3Oo9IORstJLmX2hPaDlA==}
 
   '@types/filesystem@0.0.36':
     resolution: {integrity: sha512-vPDXOZuannb9FZdxgHnqSwAG/jvdGM8Wq+6N4D/d80z+D4HWH+bItqsZaVRQykAn6WEVeEkLm2oQigyHtgb0RA==}
@@ -830,7 +830,7 @@ snapshots:
 
   '@tsconfig/strictest@2.0.8': {}
 
-  '@types/chrome@0.3.3':
+  '@types/chrome@0.3.4':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
