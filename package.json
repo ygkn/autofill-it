@@ -18,7 +18,7 @@
     "@types/chrome": "0.3.4",
     "@types/node": "24.19.1",
     "npm-run-all2": "9.0.3",
-    "typescript": "5.9.3",
+    "typescript": "7.0.2",
     "vite": "8.3.3"
   }
 }
